@@ -1,0 +1,21 @@
+CC=@CC@
+CFLAGS=@CFLAGS@
+DEP=@DEP@
+
+BUILD_PATH=build/
+SRC_PATH=src/
+SRC      :=  $(wildcard src/*.cpp) \
+
+OBJECTS := $(SRC:$(SRC_PATH)%.cpp=$(BUILD_PATH)%.o)
+
+all: fastpoly_demo
+
+$(BUILD_PATH)%.o: $(SRC_PATH)%.cpp
+	$(CC) $(CFLAGS) $(INCLUDE) -c $< -o $@
+
+fastpoly_demo: $(OBJECTS)
+	$(CC) $(CFLAGS)  -o  $@ $(OBJECTS) -lgmp -lgmpxx
+
+clean:
+	rm -f fastpoly_demo makefile \
+	rm -rf build/

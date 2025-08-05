@@ -1,0 +1,24 @@
+Explanation of the benchmarks created for our FMCAD'2025 submission with title:
+
+"FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra"
+
+by Alexander Konrad and Christoph Scholl, University of Freiburg
+================================================================================
+
+The benchmarks in this folder contain information for specifying a starting polynomial
+and a series of polynomial substitution steps. For details on how the benchmarks there created
+we refer to the paper written above.
+
+The benchmarks have the following structure:
+
+Line 1: Defines the maximum variable index used in the polynomial. This is necessary for 
+	the initialization of the polynomial.
+	
+Line 2: Defines the modulo coefficient which is used to reduce all occuring monomial coefficients
+	during substitution steps.
+	If this line contains only a 0, modulo reduction of coefficients will be turned off.
+	
+Line 3: The description of the starting polynomial.
+
+Lines 4+: From line 4 on, the polynomials for the substitution steps are written down.
+		Each line for one substitution step.
