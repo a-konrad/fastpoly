@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-"FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra"
+## FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra
 
 by Alexander Konrad and Christoph Scholl, University of Freiburg
 
