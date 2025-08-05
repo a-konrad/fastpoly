@@ -1,13 +1,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra
+## FastPoly: An Efficient Polynomial Package for the Verification of Integer Arithmetic Circuits
 
 by Alexander Konrad and Christoph Scholl, University of Freiburg
 
 For further information we refer to the paper
 
 Alexander Konrad, Christoph Scholl. 
- [`FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra.`]
+ [`FastPoly: FastPoly: An Efficient Polynomial Package for the Verification of Integer Arithmetic Circuits.`]
 In Proc. 25th Intl. Conf. on Formal Methods in Computer Aided Design (FMCAD'25), p. TBA, 2025.
 
   
