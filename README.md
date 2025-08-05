@@ -10,7 +10,6 @@ Alexander Konrad, Christoph Scholl.
  [`FastPoly: An Efficient Polynomial Package for Symbolic Computer Algebra.`]
 In Proc. 25th Intl. Conf. on Formal Methods in Computer Aided Design (FMCAD'25), p. TBA, 2025.
 
-================================================================================
   
 ----------------------------------------------------------------  
   
